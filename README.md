@@ -28,7 +28,7 @@ Model Performance
 Sample Predictions:
 Sample texts: ['The product quality is great!', 'This is a terrible purchase.']
 
-Predicted sentiments: [2 1]
+Predicted sentiments: [2, 1]
 
 ![performance](https://github.com/user-attachments/assets/8615cc4d-5771-4c08-afd4-0514490b0b6f)
 ![PCA + t-SNE img](https://github.com/user-attachments/assets/f07d25cf-31b3-4d2b-a19c-c85e76a00a44)
