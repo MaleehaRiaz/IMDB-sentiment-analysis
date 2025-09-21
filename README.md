@@ -16,18 +16,17 @@ Trained a BERT-based classifier for sentiment prediction.
 
 Visualizations:
 Training/Validation Loss and Accuracy over epochs. 
+Training Loss: [0.316, 0.189, 0.101, 0.053, 0.035]  
+Validation Accuracy: [0.896, 0.896, 0.897, 0.899, 0.897]
 BLEU Score over Epochs.
 Heatmap of Sentence Similarities.
 PCA & t-SNE scatter plots for embeddings visualization. 
 Loss vs Epoch
 Model Performance
-![performance](https://github.com/user-attachments/assets/8615cc4d-5771-4c08-afd4-0514490b0b6f)
-![validation accuracy](https://github.com/user-attachments/assets/ab4b9b92-aeaf-4eb3-9674-b32f29c56edd)
-![PCA + t-SNE img](https://github.com/user-attachments/assets/f07d25cf-31b3-4d2b-a19c-c85e76a00a44)
-
-
 
 Sample Predictions:
 Sample texts: ['The product quality is great!', 'This is a terrible purchase.']
 Predicted sentiments: [2 1]
 
+![performance](https://github.com/user-attachments/assets/8615cc4d-5771-4c08-afd4-0514490b0b6f)
+![PCA + t-SNE img](https://github.com/user-attachments/assets/f07d25cf-31b3-4d2b-a19c-c85e76a00a44)
