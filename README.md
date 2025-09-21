@@ -16,8 +16,11 @@ Trained a BERT-based classifier for sentiment prediction.
 
 Visualizations:
 Training/Validation Loss and Accuracy over epochs. 
+
 Training Loss: [0.316, 0.189, 0.101, 0.053, 0.035]  
+
 Validation Accuracy: [0.896, 0.896, 0.897, 0.899, 0.897]
+
 BLEU Score over Epochs.
 Heatmap of Sentence Similarities.
 PCA & t-SNE scatter plots for embeddings visualization. 
