@@ -1,10 +1,9 @@
 IMDB Movie Reviews Sentiment Analysis
 
 Overview:
-I built a sentiment analysis model to classify IMDB movie reviews as positive, neutral, or negative using BERT in both TensorFlow and PyTorch.
+I built a sentiment analysis model to classify IMDB movie reviews as positive, neutral, or negative using BERT in both TensorFlow and PyTorch. The model achieves ~89% validation accuracy and effectively classifies reviews into positive, neutral, and negative categories.
 
-Dataset:
-Used: IMDB Dataset (Kaggle)
+Used IMDB Dataset (Kaggle)
 
 Key Steps:
 Cleaned text (removed URLs, special characters, and lowercased text).
@@ -16,7 +15,7 @@ Trained a BERT-based classifier for sentiment prediction.
 Visualizations:
 Training/Validation Loss and Accuracy over epochs. 
 
-Training Loss: [0.316, 0.189, 0.101, 0.053, 0.035]  
+Training Loss: [0.316, 0.189, 0.101, 0.053, 0.035] 
 
 Validation Accuracy: [0.896, 0.896, 0.897, 0.899, 0.897]
 
@@ -28,6 +27,7 @@ Model Performance
 
 Sample Predictions:
 Sample texts: ['The product quality is great!', 'This is a terrible purchase.']
+
 Predicted sentiments: [2 1]
 
 ![performance](https://github.com/user-attachments/assets/8615cc4d-5771-4c08-afd4-0514490b0b6f)
