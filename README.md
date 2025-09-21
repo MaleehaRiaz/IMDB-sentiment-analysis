@@ -4,8 +4,7 @@ Overview:
 I built a sentiment analysis model to classify IMDB movie reviews as positive, neutral, or negative using BERT in both TensorFlow and PyTorch.
 
 Dataset:
-Used: IMDB Dataset from Kaggle
-I used the Kaggle IMDB Dataset with 49,582 reviews, containing review and sentiment columns.
+Used: IMDB Dataset (Kaggle)
 
 Key Steps:
 Cleaned text (removed URLs, special characters, and lowercased text).
